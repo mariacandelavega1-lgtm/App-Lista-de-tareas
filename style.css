@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 248, 91);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+
+   
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.aporte {width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.boton-agregar:hover {
+    opacity: 0,9;
+}
